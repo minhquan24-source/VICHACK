@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB6EE72E2C670BD900067529 /* VICHACKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EE72D2C670BD900067529 /* VICHACKApp.swift */; };
+		FB6EE7302C670BD900067529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EE72F2C670BD900067529 /* ContentView.swift */; };
+		FB6EE7322C670BDB00067529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6EE7312C670BDB00067529 /* Assets.xcassets */; };
+		FB6EE7362C670BDB00067529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6EE7352C670BDB00067529 /* Preview Assets.xcassets */; };
+		FB6EE7402C670BDB00067529 /* VICHACKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EE73F2C670BDB00067529 /* VICHACKTests.swift */; };
+		FB6EE74A2C670BDB00067529 /* VICHACKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EE7492C670BDB00067529 /* VICHACKUITests.swift */; };
+		FB6EE74C2C670BDB00067529 /* VICHACKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EE74B2C670BDB00067529 /* VICHACKUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB6EE73C2C670BDB00067529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6EE7222C670BD900067529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6EE7292C670BD900067529;
+			remoteInfo = VICHACK;
+		};
+		FB6EE7462C670BDB00067529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6EE7222C670BD900067529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6EE7292C670BD900067529;
+			remoteInfo = VICHACK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB6EE72A2C670BD900067529 /* VICHACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VICHACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6EE72D2C670BD900067529 /* VICHACKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICHACKApp.swift; sourceTree = "<group>"; };
+		FB6EE72F2C670BD900067529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB6EE7312C670BDB00067529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6EE7332C670BDB00067529 /* VICHACK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VICHACK.entitlements; sourceTree = "<group>"; };
+		FB6EE7352C670BDB00067529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB6EE73B2C670BDB00067529 /* VICHACKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VICHACKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6EE73F2C670BDB00067529 /* VICHACKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICHACKTests.swift; sourceTree = "<group>"; };
+		FB6EE7452C670BDB00067529 /* VICHACKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VICHACKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6EE7492C670BDB00067529 /* VICHACKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICHACKUITests.swift; sourceTree = "<group>"; };
+		FB6EE74B2C670BDB00067529 /* VICHACKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICHACKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6EE7272C670BD900067529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6EE7382C670BDB00067529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6EE7422C670BDB00067529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6EE7212C670BD900067529 = {
+			isa = PBXGroup;
+			children = (
+				FB6EE72C2C670BD900067529 /* VICHACK */,
+				FB6EE73E2C670BDB00067529 /* VICHACKTests */,
+				FB6EE7482C670BDB00067529 /* VICHACKUITests */,
+				FB6EE72B2C670BD900067529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6EE72B2C670BD900067529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6EE72A2C670BD900067529 /* VICHACK.app */,
+				FB6EE73B2C670BDB00067529 /* VICHACKTests.xctest */,
+				FB6EE7452C670BDB00067529 /* VICHACKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6EE72C2C670BD900067529 /* VICHACK */ = {
+			isa = PBXGroup;
+			children = (
+				FB6EE72D2C670BD900067529 /* VICHACKApp.swift */,
+				FB6EE72F2C670BD900067529 /* ContentView.swift */,
+				FB6EE7312C670BDB00067529 /* Assets.xcassets */,
+				FB6EE7332C670BDB00067529 /* VICHACK.entitlements */,
+				FB6EE7342C670BDB00067529 /* Preview Content */,
+			);
+			path = VICHACK;
+			sourceTree = "<group>";
+		};
+		FB6EE7342C670BDB00067529 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB6EE7352C670BDB00067529 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB6EE73E2C670BDB00067529 /* VICHACKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6EE73F2C670BDB00067529 /* VICHACKTests.swift */,
+			);
+			path = VICHACKTests;
+			sourceTree = "<group>";
+		};
+		FB6EE7482C670BDB00067529 /* VICHACKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6EE7492C670BDB00067529 /* VICHACKUITests.swift */,
+				FB6EE74B2C670BDB00067529 /* VICHACKUITestsLaunchTests.swift */,
+			);
+			path = VICHACKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6EE7292C670BD900067529 /* VICHACK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6EE74F2C670BDB00067529 /* Build configuration list for PBXNativeTarget "VICHACK" */;
+			buildPhases = (
+				FB6EE7262C670BD900067529 /* Sources */,
+				FB6EE7272C670BD900067529 /* Frameworks */,
+				FB6EE7282C670BD900067529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VICHACK;
+			productName = VICHACK;
+			productReference = FB6EE72A2C670BD900067529 /* VICHACK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB6EE73A2C670BDB00067529 /* VICHACKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6EE7522C670BDB00067529 /* Build configuration list for PBXNativeTarget "VICHACKTests" */;
+			buildPhases = (
+				FB6EE7372C670BDB00067529 /* Sources */,
+				FB6EE7382C670BDB00067529 /* Frameworks */,
+				FB6EE7392C670BDB00067529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6EE73D2C670BDB00067529 /* PBXTargetDependency */,
+			);
+			name = VICHACKTests;
+			productName = VICHACKTests;
+			productReference = FB6EE73B2C670BDB00067529 /* VICHACKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB6EE7442C670BDB00067529 /* VICHACKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6EE7552C670BDB00067529 /* Build configuration list for PBXNativeTarget "VICHACKUITests" */;
+			buildPhases = (
+				FB6EE7412C670BDB00067529 /* Sources */,
+				FB6EE7422C670BDB00067529 /* Frameworks */,
+				FB6EE7432C670BDB00067529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6EE7472C670BDB00067529 /* PBXTargetDependency */,
+			);
+			name = VICHACKUITests;
+			productName = VICHACKUITests;
+			productReference = FB6EE7452C670BDB00067529 /* VICHACKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6EE7222C670BD900067529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FB6EE7292C670BD900067529 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FB6EE73A2C670BDB00067529 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB6EE7292C670BD900067529;
+					};
+					FB6EE7442C670BDB00067529 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB6EE7292C670BD900067529;
+					};
+				};
+			};
+			buildConfigurationList = FB6EE7252C670BD900067529 /* Build configuration list for PBXProject "VICHACK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB6EE7212C670BD900067529;
+			productRefGroup = FB6EE72B2C670BD900067529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6EE7292C670BD900067529 /* VICHACK */,
+				FB6EE73A2C670BDB00067529 /* VICHACKTests */,
+				FB6EE7442C670BDB00067529 /* VICHACKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6EE7282C670BD900067529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6EE7362C670BDB00067529 /* Preview Assets.xcassets in Resources */,
+				FB6EE7322C670BDB00067529 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6EE7392C670BDB00067529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6EE7432C670BDB00067529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6EE7262C670BD900067529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6EE7302C670BD900067529 /* ContentView.swift in Sources */,
+				FB6EE72E2C670BD900067529 /* VICHACKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6EE7372C670BDB00067529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6EE7402C670BDB00067529 /* VICHACKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6EE7412C670BDB00067529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6EE74C2C670BDB00067529 /* VICHACKUITestsLaunchTests.swift in Sources */,
+				FB6EE74A2C670BDB00067529 /* VICHACKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB6EE73D2C670BDB00067529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6EE7292C670BD900067529 /* VICHACK */;
+			targetProxy = FB6EE73C2C670BDB00067529 /* PBXContainerItemProxy */;
+		};
+		FB6EE7472C670BDB00067529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6EE7292C670BD900067529 /* VICHACK */;
+			targetProxy = FB6EE7462C670BDB00067529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB6EE74D2C670BDB00067529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB6EE74E2C670BDB00067529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FB6EE7502C670BDB00067529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VICHACK/VICHACK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VICHACK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Quan.VICHACK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6EE7512C670BDB00067529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VICHACK/VICHACK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VICHACK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Quan.VICHACK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB6EE7532C670BDB00067529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Quan.VICHACKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VICHACK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VICHACK";
+			};
+			name = Debug;
+		};
+		FB6EE7542C670BDB00067529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Quan.VICHACKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VICHACK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VICHACK";
+			};
+			name = Release;
+		};
+		FB6EE7562C670BDB00067529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Quan.VICHACKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VICHACK;
+			};
+			name = Debug;
+		};
+		FB6EE7572C670BDB00067529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Quan.VICHACKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VICHACK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6EE7252C670BD900067529 /* Build configuration list for PBXProject "VICHACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6EE74D2C670BDB00067529 /* Debug */,
+				FB6EE74E2C670BDB00067529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6EE74F2C670BDB00067529 /* Build configuration list for PBXNativeTarget "VICHACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6EE7502C670BDB00067529 /* Debug */,
+				FB6EE7512C670BDB00067529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6EE7522C670BDB00067529 /* Build configuration list for PBXNativeTarget "VICHACKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6EE7532C670BDB00067529 /* Debug */,
+				FB6EE7542C670BDB00067529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6EE7552C670BDB00067529 /* Build configuration list for PBXNativeTarget "VICHACKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6EE7562C670BDB00067529 /* Debug */,
+				FB6EE7572C670BDB00067529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6EE7222C670BD900067529 /* Project object */;
+}
